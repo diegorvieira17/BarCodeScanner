@@ -8,12 +8,14 @@
         <StackLayout>
             <!-- Place new controls here -->
             <Label Text="BarCode Scanner" 
+                   FontSize="Large"
+                   FontAttributes="Bold"
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand" />
             <Label x:Name="lblResultado" 
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand" />
-            <Button Text="Scanner" Clicked="Button_OnClicked"></Button>
+            <Button Text="Scanner" Clicked="Button_OnClicked" />
         </StackLayout>
     </ContentPage.Content>
     
